@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Contattami</title>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Pietro</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Servizi</a>
+      <a href="skills.html">Skills</a>
+      <a href="esper.html">Esperienza</a>
+      <a href="contact.html" class="active">Contatti</a>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <h2 class="section-title">Contattami</h2>
+    
+    <form action="https://formsubmit.co/pietro.medaina@gmail.com" method="POST" class="contact-form">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="grazie.html">
+  
+  <!-- I tuoi input -->
+  <div class="form-group">
+    <label for="name">Nome</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+
+  <div class="form-group">
+    <label for="message">Messaggio</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+  </div>
+
+  <button type="submit" class="btn">Invia Messaggio</button>
+</form>
+
+  </section>
+</body>
+</html>
